@@ -7,10 +7,10 @@ This project focuses on analyzing GMart's e-commerce sales data using Microsoft 
 
 The dataset follows a star-schema-based data model consisting of:
 
-Customer_Dim – Contains customer information such as Customer ID, Name, Gender, City, State, Country, and Loyalty Level.
-Product_Dim – Contains product information such as Product ID, Product Name, Category, Sub-Category, Brand, Cost, and Stock.
-Store_Dim – Contains store-related and regional information.
-Sales_Fact – Contains transactional information such as Order Date, Quantity, Unit Price, Discount, and Total Amount.
+1) Customer_Dim – Contains customer information such as Customer ID, Name, Gender, City, State, Country, and Loyalty Level.
+2) Product_Dim – Contains product information such as Product ID, Product Name, Category, Sub-Category, Brand, Cost, and Stock.
+3) Store_Dim – Contains store-related and regional information.
+4) Sales_Fact – Contains transactional information such as Order Date, Quantity, Unit Price, Discount, and Total Amount.
 
 The cleaned and validated data was analyzed using Pivot Tables to summarize sales and revenue across year, quarter, product category, region, store type, customer loyalty level, and payment method. Pivot Charts were created to visualize these insights, including quarterly revenue performance, category-wise sales and revenue, regional performance, store-type revenue, customer loyalty, and payment method-wise revenue. Finally, an interactive Excel Dashboard was developed to provide a consolidated view of GMart's sales performance and enable comparison across different business dimensions.
 
