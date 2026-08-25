@@ -3,7 +3,16 @@ GMart Retail Pvt. Ltd. is a multi-store retail company operating around 20 store
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This project focuses on analyzing GMart's e-commerce sales data using Microsoft Excel to understand sales performance, customer behavior, product performance, store performance, and payment trends.
+
+The dataset follows a star-schema-based data model consisting of:
+
+Customer_Dim – Contains customer information such as Customer ID, Name, Gender, City, State, Country, and Loyalty Level.
+Product_Dim – Contains product information such as Product ID, Product Name, Category, Sub-Category, Brand, Cost, and Stock.
+Store_Dim – Contains store-related and regional information.
+Sales_Fact – Contains transactional information such as Order Date, Quantity, Unit Price, Discount, and Total Amount.
+
+The cleaned and validated data was analyzed using Pivot Tables to summarize sales and revenue across year, quarter, product category, region, store type, customer loyalty level, and payment method. Pivot Charts were created to visualize these insights, including quarterly revenue performance, category-wise sales and revenue, regional performance, store-type revenue, customer loyalty, and payment method-wise revenue. Finally, an interactive Excel Dashboard was developed to provide a consolidated view of GMart's sales performance and enable comparison across different business dimensions.
 
 ## Getting Started
 
